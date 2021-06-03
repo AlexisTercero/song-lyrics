@@ -95,9 +95,10 @@ h2 {
   color: #f6ff00;
   font-size: 18px;
   letter-spacing: 10px;
-  border: dashed red;
+  border: dashed 2px red;
   transition: 250ms;
   transform: rotate(3deg);
+  box-shadow: 1px 3px 18px  #7b73e5;
 }
 
 .b{
