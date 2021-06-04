@@ -7,7 +7,7 @@ const Info = ({info}) => {
     const { strArtist, strArtistThumb, strGenre, strBiographyEN } = info;
     
     return ( 
-        <div className="card border-light">
+        <div className="card ">
             <div className="card-header font-weight-bold">
                 {strArtist}
             </div>

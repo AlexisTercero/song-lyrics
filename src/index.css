@@ -7,11 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .row{
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
- input{
-   border: none;
- }
+
 
 
 label {
@@ -95,7 +93,7 @@ h2 {
 #bio{
   color: black;
 }
-.card-body{
+.card{
   color: black;
   letter-spacing: normal;
   font-size: larger;
@@ -136,10 +134,33 @@ h2 {
 }
 
 .b{
-  background-image: linear-gradient(to right, #000000, #010011, #010011 , #05003d, #1708e7);
+
 }
 
 .divbut{
   margin-top: 2rem;
   
+}
+input{
+  padding: 1px, 1px;
+  box-sizing: border-box;
+  border: 3px solid grey;
+  -webkit-transition: 0.5s;
+  transition: 700ms;
+  outline: none;
+}
+
+input:focus{
+  outline: none;
+  border: 3px solid grey;
+}
+
+.col{
+  margin-bottom: 0rem;
+  padding-bottom: none ;
+
+}
+
+.mb-5, .my-5 {
+  margin-bottom: none;
 }
