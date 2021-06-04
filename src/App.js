@@ -38,13 +38,13 @@ function App() {
         <div className="container mt-5">
           <div className="row">
             <div className="col-md-6">
-              <Info 
-                info={info}
+              <Cancion 
+                letra={letra}
               />
             </div>
             <div className="col-md-6">
-                <Cancion 
-                  letra={letra}
+                <Info 
+                  info={info}
                 />
             </div>
           </div>

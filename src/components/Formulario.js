@@ -45,29 +45,30 @@ const Formulario = ({guardarBusquedaLetra}) => {
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <label>ARTIST</label>
+                                    <label>SONG</label>
                                         <input
                                             type="text"
                                             className="form-control"
-                                            name="artista"
-                                            placeholder="Nombre Artista"
+                                            name="cancion"
+                                            placeholder="Song Name"
                                             onChange={actualizarState}
-                                            value={artista}
+                                            value={cancion}
                                         />
                                     </div>
                                     
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <label>SONG</label>
+                                    <label>ARTIST</label>
                                         <input
                                             type="text"
                                             className="form-control"
-                                            name="cancion"
-                                            placeholder="Nombre Canción"
+                                            name="artista"
+                                            placeholder="Artist Name"
                                             onChange={actualizarState}
-                                            value={cancion}
+                                            value={artista}
                                         />
+                                        
                                     </div>
                                 </div>
                             </div>

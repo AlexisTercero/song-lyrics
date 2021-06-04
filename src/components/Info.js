@@ -4,17 +4,17 @@ const Info = ({info}) => {
 
     if(Object.keys(info).length === 0 ) return null;
 
-    const { strArtistThumb, strGenre, strBiographyEN } = info;
+    const { strArtist, strArtistThumb, strGenre, strBiographyEN } = info;
     
     return ( 
         <div className="card border-light">
-            <div className="card-header bg-primary text-light font-weight-bold">
-                Artist Info
+            <div className="card-header font-weight-bold">
+                {strArtist}
             </div>
             <div className="card-body">
                 <img src={strArtistThumb} alt="Logo Artista" />
                 <p className="card-text">Genre: {strGenre}</p>
-                <h2 className="card-text">Biography:</h2>
+                <h2 id="bio" className="card-text">Biography:</h2>
                 <p className="card-text">{strBiographyEN}</p>
                 <p className="card-text">
                     <a href={`https://${info.strFacebook}`} target="_blank" rel="noopener noreferrer">
