@@ -1,15 +1,11 @@
 body {
-  background-image: linear-gradient(to right, #000000, #010011, #010011 , #05003d, #1708e7);
+  background-image: linear-gradient(to right, #000000, #01000d, #010011 , #05003d, #1708e7);
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.row{
-  /* margin-bottom: 60px; */
-}
-
 
 
 label {
@@ -64,6 +60,7 @@ form.card{
   font-weight: 400;
   letter-spacing: 0.3px;
   line-height: normal;
+  margin-bottom: 70px;
 }
 
 .card img {
@@ -80,6 +77,7 @@ form.card{
   font-weight: bolder;
   letter-spacing: -4px;
   border: none;
+  border-radius: 15px 15px 0px 0px;
 }
 
 h2 {
@@ -99,6 +97,8 @@ h2 {
   font-size: larger;
   background-color: rgb(227, 242, 255);
   border: none;
+  border-radius: 15px;
+  
 }
 .card-body i {
   font-size: 3rem;
@@ -133,9 +133,6 @@ h2 {
   /* box-shadow: 1px 3px 18px  #7b73e5; */
 }
 
-.b{
-
-}
 
 .divbut{
   margin-top: 2rem;
