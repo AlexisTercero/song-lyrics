@@ -3,6 +3,7 @@ import Formulario from "./components/Formulario"
 import axios from "axios";
 import Cancion from "./components/Cancion"
 import Info from "./components/Info"
+import Footer from "./components/Footer";
 
 function App() {
   //Definir el state
@@ -31,10 +32,10 @@ function App() {
   
   return (
     <Fragment>
+      <div className="contenedor">
         <Formulario 
           guardarBusquedaLetra={guardarBusquedaLetra}
         />
-
         <div className="container mt-5">
           <div className="row">
             <div className="col-md-6">
@@ -47,8 +48,10 @@ function App() {
                   info={info}
                 />
             </div>
-          </div>
+          </div>          
         </div>
+      </div>
+      <Footer />
     </Fragment>
 );
 }

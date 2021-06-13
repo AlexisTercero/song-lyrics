@@ -40,12 +40,12 @@ const Formulario = ({guardarBusquedaLetra}) => {
                         className="col card text-white bg-transparent mb-5 pt-5 pb-2"
                     >
                         <fieldset>
-                            <legend className="text-center">mmmLyRICS ♪</legend>
+                            <legend className="text-center">mmmLyRICS <span id="musicnote">♪</span></legend>
 
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                    <label>SONG</label>
+                                    {/* <label>SONG</label> */}
                                         <input
                                             type="text"
                                             className="form-control"
@@ -59,7 +59,7 @@ const Formulario = ({guardarBusquedaLetra}) => {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                    <label>ARTIST</label>
+                                    {/* <label>ARTIST</label> */}
                                         <input
                                             type="text"
                                             className="form-control"
@@ -75,7 +75,7 @@ const Formulario = ({guardarBusquedaLetra}) => {
                             <div className="divbut col text-center">
                             <button 
                                 type="submit" 
-                                className="btn "
+                                className="button "
                             >Sing!</button>
                             </div>
                         </fieldset>
