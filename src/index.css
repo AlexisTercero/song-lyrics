@@ -24,16 +24,8 @@ body {
 ;
 }
 
-
 .row {  
   /* background-color: blueviolet; */
-}
-
-
-label {
-  font-family: Helvetica, sans-serif;
-  font-size: 27px;
-  font-weight: 200; 
 }
 
 legend {
@@ -51,29 +43,26 @@ legend {
 }
 
 #musicnote{
-  color: #000000d3;
+  color: #000000;
   
 }
 
 legend::before {
   position: absolute;
   content: '';
-  width: calc(150% );
+  width: calc(139% );
   display: block;
   background-image: linear-gradient(to right, #84ff00, #d9ff00  ,  #ffec26, #ffec26);
-  background-color: #f6ff00;
   height: 40px;
   z-index:-1;
   left: -30px;
   right: -30px;
   transform: rotate(-1deg);
   transition: transform .3s ease;
-  color:white !important;
 }
 
 legend:hover::before{
   transform: rotate(3deg);
-
 }
 
 form.card{
@@ -154,14 +143,15 @@ h2 {
 }
 
 .button:hover{
-  background-color: transparent;
-  color: #f6ff00;
+  background-image: linear-gradient(to right, #84ff00, #d9ff00  ,  #ffec26, #ffec26);
+  color: #fd0f79;
   font-size: 18px;
+  font-weight: 900;
   letter-spacing: 10px;
-  border: dashed 1px #fd0f79;
+  border: none;
   transition: 250ms;
   transform: rotate(3deg);
-  /* box-shadow: 1px 3px 18px  #7b73e5; */
+
 }
 
 
@@ -235,14 +225,14 @@ input:-webkit-autofill:active
 }
 
 #mail {
-  color: rgb(131, 150, 255);
+  color: #ff90c2;
   text-decoration: none;
   cursor: pointer;
   transition: 350ms;
 }
 
 #mail:hover {
-  color: #7458ff;
-  letter-spacing: 1.3px;
+  color: #f6ff00;
+  letter-spacing: 1.6px;
 }
 
